@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Quiz App</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background">
+        <div class="circle circle1"></div>
+        <div class="circle circle2"></div>
+        <div class="circle circle3"></div>
+    </div>
+
+    <div class="app">
+
+        <div class="header">
+            <div>
+                <span class="badge">WEB DEV QUIZ</span>
+                <h1>Test Your Knowledge</h1>
+            </div>
+
+            <div class="score-box">
+                <span>Score</span>
+                <strong id="live-score">0</strong>
+            </div>
+        </div>
+
+        <div class="progress-container">
+            <div class="progress-info">
+                <span id="question-count">Question 1 of 10</span>
+                <span id="progress-percent">10%</span>
+            </div>
+
+            <div class="progress-bar">
+                <div id="progress"></div>
+            </div>
+        </div>
+
+        <div class="quiz">
+
+            <h2 id="question">Question goes here</h2>
+
+            <div id="ans-buttons">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+
+        </div>
+
+        <button id="next-btn">
+            Next
+            <span>→</span>
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
